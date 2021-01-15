@@ -328,7 +328,9 @@ export default class Day extends React.Component {
       role="button"
       aria-disabled={this.isDisabled()}
     >
-      {this.renderDayContents()}
+      <span>
+        {this.renderDayContents()}
+      </span>
     </div>
   );
 }
