@@ -6,8 +6,11 @@
 |---|---|---|---|
 |`adjustDateOnChange`|`bool`|||
 |`allowSameDay`|`bool`|`false`||
+|`ariaDescribedBy`|`string`|||
+|`ariaInvalid`|`string`|||
 |`ariaLabelClose`|`string`|||
 |`ariaLabelledBy`|`string`|||
+|`ariaRequired`|`string`|||
 |`autoComplete`|`string`|||
 |`autoFocus`|`bool`|||
 |`calendarClassName`|`string`|||
@@ -33,6 +36,7 @@
 |`excludeScrollbar`|`bool`|`true`||
 |`excludeTimes`|`array`|||
 |`filterDate`|`func`|||
+|`filterTime`|`func`|||
 |`fixedHeight`|`bool`|||
 |`focusSelectedMonth`|`bool`|`false`||
 |`forceShowMonthNavigation`|`bool`|||
@@ -77,7 +81,7 @@
 |`placeholderText`|`string`|||
 |`popperClassName`|`string`|||
 |`popperContainer`|`func`|||
-|`popperModifiers`|`object`|||
+|`popperModifiers`|`arrayOf[object Object]`|||
 |`popperPlacement`|`enumpopperPlacementPositions`|||
 |`popperProps`|`object`|||
 |`portalId`|`string`|||
@@ -131,5 +135,5 @@
 |`weekLabel`|`string`|||
 |`withPortal`|`bool`|`false`||
 |`wrapperClassName`|`string`|||
-|`yearItemNumber`|`number`|`12`||
 |`yearDropdownItemNumber`|`number`|||
+|`yearItemNumber`|`number`|`DEFAULT_YEAR_ITEM_NUMBER`||
